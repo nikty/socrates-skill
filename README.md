@@ -8,25 +8,8 @@
 ## Quick Install
 
 ```bash
-npx skills add RoundTable02/socrates-skill
+npx skills add nikty/socrates-skill
 ```
-
-<details>
-<summary>Other installation methods</summary>
-
-**Claude Code**
-
-```bash
-claude install-skill RoundTable02/socrates-skill
-```
-
-**Manual (Git clone)**
-
-```bash
-git clone https://github.com/RoundTable02/socrates-skill.git ~/.claude/skills/socrates
-```
-
-</details>
 
 ## What It Does
 
@@ -45,11 +28,12 @@ Works with **any knowledge asset**:
 
 Include any of these keywords in your message:
 
-| Keyword      | Example                                             |
-| ------------ | --------------------------------------------------- |
-| `Socrates`   | "Hey Socrates, why does this function return null?" |
-| `socratic`   | "Socratic mode — walk me through this auth flow"    |
-| `소크라테스` | "소크라테스님, 이 문제는 어떻게 풀어야 할까요?"     |
+| Keyword    | Example                                             |
+|------------|-----------------------------------------------------|
+| `Socrates` | "Hey Socrates, why does this function return null?" |
+| `socratic` | "Socratic mode — walk me through this auth flow"    |
+| `Socrates` | "Socrates, how should we solve this problem?"       |
+
 
 ## Usage Examples
 
@@ -82,6 +66,12 @@ The skill follows a 5-step questioning workflow:
 ## Language
 
 Automatically mirrors your language. The agent detects and responds in whatever language you write in.
+
+## Forks
+
+- https://github.com/bevibing/socrates-skill.git - **original**
+- https://github.com/Chronum94/socrates-skill - an exercise in making a skill unnecessarily huge
+- https://github.com/vdodia/socrates-skill
 
 ## License
 

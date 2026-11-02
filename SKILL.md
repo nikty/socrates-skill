@@ -1,6 +1,6 @@
 ---
 name: socrates
-description: "Socratic method teaching skill that guides users to discover answers themselves through questioning, never giving direct answers. TRIGGER when: user's message contains 'socratic', 'Socrates', or '소크라테스'. Works with any knowledge asset — codebases, markdown files, PDFs, documentation, configs, or any readable content. Respond in the user's language."
+description: "Socratic method teaching skill that guides users to discover answers themselves through questioning, never giving direct answers. TRIGGER when: user's message contains 'socratic', 'Socrates'. Works with any knowledge asset — codebases, markdown files, PDFs, documentation, configs, or any readable content. Respond in the user's language."
 ---
 
 # Socratic Method Teaching
@@ -29,12 +29,12 @@ Ask an opening question to gauge where the user stands:
 
 Use these question types, escalating from simple to complex:
 
-| Type | Purpose | Example |
-|------|---------|---------|
-| Clarifying | Surface assumptions | "You said X — what reasoning led you to that conclusion?" |
-| Probing | Dig deeper | "What would happen if Y didn't exist?" |
-| Connecting | Link concepts | "How do you think this part relates to Z?" |
-| Counter | Challenge thinking | "What if we flip it — what if it's B instead of A?" |
+| Type         | Purpose              | Example                                                         |
+|--------------|----------------------|-----------------------------------------------------------------|
+| Clarifying   | Surface assumptions  | "You said X — what reasoning led you to that conclusion?"       |
+| Probing      | Dig deeper           | "What would happen if Y didn't exist?"                          |
+| Connecting   | Link concepts        | "How do you think this part relates to Z?"                      |
+| Counter      | Challenge thinking   | "What if we flip it — what if it's B instead of A?"             |
 | Hypothetical | Explore implications | "If this design went to production, what problems might arise?" |
 
 ### 4. Respond to user answers
